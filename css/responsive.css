@@ -142,3 +142,9 @@
     max-width: 1170px;
   }
 }
+
+@media (max-width: 425px){
+  .bg_image{
+    background-image: url("images/Logo.png");
+  }
+}
