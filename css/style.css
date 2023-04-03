@@ -1,3 +1,13 @@
+/* html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+} */
+
+
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
@@ -184,6 +194,43 @@ body {
 
 }
 
+.obj8 {
+  border: 1px;
+  margin: 5rem 30rem 10rem 30rem;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 1px 1px 15px #ffe946;
+  border: 1px solid white;
+  /* animation: rotation 5s infinite; */
+  color: white;
+  z-index: 3;
+  /* background-color: ; */
+  /* background-image: repeating-linear-gradient(67.5deg, hsla(145, 0%, 97%, 0.2) 0px, hsla(145, 0%, 97%, 0.2) 0px, transparent 0px, transparent 1px, hsla(145, 0%, 97%, 0.2) 1px, hsla(145, 0%, 97%, 0.2) 4px, transparent 4px, transparent 5px, hsla(145, 0%, 97%, 0.2) 5px, hsla(145, 0%, 97%, 0.2) 8px), repeating-linear-gradient(0deg, hsla(145, 0%, 97%, 0.2) 0px, hsla(145, 0%, 97%, 0.2) 0px, transparent 0px, transparent 1px, hsla(145, 0%, 97%, 0.2) 1px, hsla(145, 0%, 97%, 0.2) 4px, transparent 4px, transparent 5px, hsla(145, 0%, 97%, 0.2) 5px, hsla(145, 0%, 97%, 0.2) 8px), linear-gradient(135deg, rgb(237, 237, 237), rgb(199, 199, 199)); */
+
+}
+
+.obj9 {
+  border: 1px;
+  margin: -7rem 30rem 10rem 30rem;
+  border-radius: 0px 20px 20px 20px;
+  box-shadow: 1px 1px 15px #ffe946;
+  border: 1px solid white;
+ /* animation: rotation 5s infinite; */
+  color: white;
+  z-index: 3;
+  /* background-color: ; */
+  /* background-image: repeating-linear-gradient(67.5deg, hsla(145, 0%, 97%, 0.2) 0px, hsla(145, 0%, 97%, 0.2) 0px, transparent 0px, transparent 1px, hsla(145, 0%, 97%, 0.2) 1px, hsla(145, 0%, 97%, 0.2) 4px, transparent 4px, transparent 5px, hsla(145, 0%, 97%, 0.2) 5px, hsla(145, 0%, 97%, 0.2) 8px), repeating-linear-gradient(0deg, hsla(145, 0%, 97%, 0.2) 0px, hsla(145, 0%, 97%, 0.2) 0px, transparent 0px, transparent 1px, hsla(145, 0%, 97%, 0.2) 1px, hsla(145, 0%, 97%, 0.2) 4px, transparent 4px, transparent 5px, hsla(145, 0%, 97%, 0.2) 5px, hsla(145, 0%, 97%, 0.2) 8px), linear-gradient(135deg, rgb(237, 237, 237), rgb(199, 199, 199)); */
+
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(2deg);
+  }
+}
+
 .left {
   text-align: center;
   
@@ -194,6 +241,243 @@ body {
   margin:30px;
 }
 
+.who8 {
+  text-align: center;
+  margin:30px;
+  
+}
+
+.bp {
+  font-weight: bold;
+  margin-top: 6rem;
+}
+
+.who9 {
+  text-align: center;
+  margin:50px;
+}
+
+
+
+.circle.small {
+	border: 1px solid #f8ec42;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+  position: absolute;
+  box-shadow: 1px 1px 10px rgb(234, 234, 58);
+  animation: liquid 30s infinite;
+}
+
+.circle.smoll {
+	border: 1px solid #faf8dc;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	z-index: 1;
+  position: absolute;
+  box-shadow: 1px 1px 10px rgb(234, 58, 58);
+  animation: liquid2 30s infinite;
+}
+
+.circle.smell {
+	border: 1px solid #faf8dc;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	z-index: 1;
+  position: absolute;
+  box-shadow: 1px 1px 10px rgb(52, 152, 246);
+  animation: liquid3 30s infinite;
+}
+
+@keyframes liquid {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(-50rem, 10rem);
+  }
+  30% {
+    transform: translate(100rem, 605rem);
+  }
+  50% {
+    transform: translate(300rem, -400rem);
+  }
+
+  100% {
+    transform: translate(200rem, 700rem);
+  }
+}
+
+@keyframes liquid2 {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(10rem, 30rem);
+  }
+  30% {
+    transform: translate(90rem, 25rem);
+  }
+  50% {
+    transform: translate(40rem, -50rem);
+  }
+  70% {
+    transform: translate(-90rem, 400rem);
+  }
+
+  100% {
+    transform: translate(-210rem, 900rem);
+  }
+}
+
+@keyframes liquid3 {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(5rem, 10rem);
+  }
+  30% {
+    transform: translate(-400rem, 23rem);
+  }
+  50% {
+    transform: translate(78rem, -30rem);
+  }
+  70% {
+    transform: translate(-110rem, 800rem);
+  }
+
+  100% {
+    transform: translate(-110rem, 300rem);
+  }
+}
+
+.iron {
+  text-align: center;
+ 
+}
+
+.plat {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding : 90px 30px 50px 30px;
+  
+}
+
+.plat2 {
+  color: black;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding : 90px 30px 50px 30px;
+  
+}
+
+/* twitter bird */ 
+
+
+/* twitter bird */
+.insta {
+  color: white;
+  text-align: left;
+  margin: 30px 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.instu {
+  color: #000000;
+  text-align: left;
+  margin: 30px 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  
+}
+
+.s1 {
+  text-shadow: 1px 1px 10px rgb(255, 27, 126);
+}
+
+.s2 {
+  text-shadow: 1px 1px 13px rgb(27, 202, 255);
+  
+}
+.s3 {
+  text-shadow: 1px 1px 13px rgb(255, 80, 80);
+  
+}
+.s4 {
+  text-shadow: 1px 1px 15px rgb(208, 19, 242);  
+}
+
+.s5 {
+  /* text-shadow: 1px 1px 15px rgb(213, 196, 42);  */
+}
+
+
+.shot {
+ margin: 10px;
+ color: white;
+ font-family: "Poppins", sans-serif;
+}
+
+.ijo {
+  margin-top: 30px;
+  
+}
+
+
+
+.arrange {
+  display: inline-block;
+  margin: 10px 10px 100px 10px;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+
+
+.socio {
+  margin: 0 auto ;
+  text-align: center;
+
+}
+
+
+/* form */
+
+.forum {
+  border: 1px solid white;
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 10em;
+
+}
+
+.obj10 {
+  border: 1px;
+  margin:;
+  border-radius: 20px 20px 0px 20px;
+  box-shadow: 1px 1px 15px #ffe946;
+  border: 1px solid white;
+ 
+  color: white;
+  
+  /* background-color: ; */
+  /* background-image: repeating-linear-gradient(67.5deg, hsla(145, 0%, 97%, 0.2) 0px, hsla(145, 0%, 97%, 0.2) 0px, transparent 0px, transparent 1px, hsla(145, 0%, 97%, 0.2) 1px, hsla(145, 0%, 97%, 0.2) 4px, transparent 4px, transparent 5px, hsla(145, 0%, 97%, 0.2) 5px, hsla(145, 0%, 97%, 0.2) 8px), repeating-linear-gradient(0deg, hsla(145, 0%, 97%, 0.2) 0px, hsla(145, 0%, 97%, 0.2) 0px, transparent 0px, transparent 1px, hsla(145, 0%, 97%, 0.2) 1px, hsla(145, 0%, 97%, 0.2) 4px, transparent 4px, transparent 5px, hsla(145, 0%, 97%, 0.2) 5px, hsla(145, 0%, 97%, 0.2) 8px), linear-gradient(135deg, rgb(237, 237, 237), rgb(199, 199, 199)); */
+
+}
+
+
+/* instagram logo */
 .fadeInSlide {
   animation-name: fadeInSlide;
   animation-duration: 1.5s;
@@ -275,7 +559,14 @@ body {
 
 .black {
   background-color: #000000;
+  
 
+}
+
+.pop {
+  text-align: center;
+  color: white;
+  margin: 0 auto;
 }
 
 .whote {
@@ -285,7 +576,22 @@ body {
   text-shadow: 1px 1px 3px gray;
 }
 
+.whote2 {
+  color: white;
+  margin: 80px 50px 50px 50px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px gray;
+  font-weight: bold;
+}
 
+/* .dota {
+  margin: 0 auto;
+}
+
+#doto {
+  width: 30%;
+  
+} */
 
 .heading_container {
   display: -webkit-box;
@@ -951,10 +1257,36 @@ a:focus {
 }
 
 .footer_bg {
-  background-image: url(../images/footer-bg.png);
+  background-color: #000000;
   background-size: cover;
   background-position: right top;
   padding-top: 250px;
+}
+
+.op {
+  outline: none;
+  background: none;
+  border: none;
+  color: white;
+  border-bottom: 1px white;
+}
+
+/* form */
+.input-line {
+  background: none;
+  
+  border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+.full-width {
+  width: 150%;
+}
+/* form */
+
+
+
+.area {
+  text-align: center;
 }
 
 .contact_section {
